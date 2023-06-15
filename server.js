@@ -5,6 +5,8 @@ if (process.env.NODE_ENV !== "production") {
 const stripePublicKey = process.env.STRIPE_PUBLIC_KEY;
 const stripeSecretKey = process.env.STRIPE_SECRET_KEY;
 
+console.log("Hll");
+
 const express = require("express");
 const app = express();
 const fs = require("fs");
